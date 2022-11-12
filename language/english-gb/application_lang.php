@@ -2,7 +2,7 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 /**
- * m'Manager - English language file
+ * m'Manager - English (GB) language file
  *
  * m'Manager is a Billing manager application for CodeIgniter 3
  *
@@ -10,8 +10,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
  * @author      Eric Claver AKAFFOU
  * @copyright   Copyright (c) 2014 - 2016; On'Eric Computing. (https://www.onericcomputing.com/)
  * @license     On'Eric Computing. (https://www.onericcomputing.com)
- * @link        https://www.app.mmanager.fr
- * English:     application.php last edited 01/07/2019 by Daniel Benson
+ * @link        https://www.demo.mmanager.fr
+ * English (GB): application.php last edited 12/11/2022 by Daniel Benson (https://github.com/mcrdan)
  */
  
 // =========================================== INVOICES ===================================================
@@ -20,9 +20,11 @@ $lang['invoices_invoices'] = "Invoices";
 $lang['invoices_unpaid'] = "Unpaid Invoices";
 $lang['invoices_overdue'] = "Overdue Invoices";
 $lang['invoices_paid'] = "Paid Invoices";
+
 // ===========================================  QUOTES  ===================================================
 $lang['quotes_quotes'] = "Quotes";
 $lang['quotes_quote'] = "Quote";
+
 // ===========================================  CHARGES ===================================================
 $lang['charges_charge'] = "Charge";
 $lang['charges_sku'] = "Charges ID";
@@ -37,6 +39,7 @@ $lang['charges_financial_charges'] = "Financial Charges";
 $lang['charges_depreciation_provisions'] = "Depreciation and Provisions";
 $lang['charges_employee_participation_income_taxes'] = "Employee Participation and Income Taxes";
 $lang['charges_exceptional_costs'] = "Exceptional Costs";
+
 // =========================================== MENU & NAV =================================================
 $lang['header_clients'] = "Manage Clients";
 $lang['header_items_services'] = "Items and Services";
@@ -86,6 +89,7 @@ $lang['link_create_new_invoice'] = "Create New Invoice";
 $lang['link_create_new_quote'] = "Create New Quote";
 $lang['link_documentation'] = "Documentation";
 $lang['link_help'] = "Help";
+
 // =========================================== MESSAGES ===================================================
 $lang['message_credit_available'] = "Available Credit: ";
 $lang['message_invoice_created'] = "Invoice created successfully. The page may reload.";
@@ -95,7 +99,7 @@ $lang['message_quote_mark_approved'] = "Great! The selection has been marked app
 $lang['message_add_charges_subheading'] = "Fill in the form below to record a charge.";
 $lang['message_add_client_subheading'] = "Fill in the form below to Add a Client.";
 $lang['message_add_user_subheading'] = "Fill in the form below to Add a User";
-$lang['message_add_provider_subheading'] = "Fill in the form below to Add a Suppliers.";
+$lang['message_add_provider_subheading'] = "Fill in the form below to Add a Supplier.";
 $lang['message_add_category_subheading'] = "Fill in the form below to Add a Group.";
 $lang['message_add_tax_subheading'] = "Fill in the form below to Add a Tax";
 $lang['message_deletion_failed'] = "Items used in invoices or services cannot be deleted. Count of Items not deleted: ";
@@ -140,7 +144,9 @@ $lang['message_administrative_email'] = "This address is used for administration
 $lang['message_hide_chart'] = "To hide a category, click on its label under the graphics.";
 $lang['message_client_location'] = "Geolocation is active for clients in the same country as the company";
 $lang['message_upload_avatar_size'] = "We suggest a square 750x750 image for your profile.";
+
 // ===========================================    ===================================================
+
 // =========================================== FORMS LABELS ===============================================
 $lang['label_invoice_subject'] = "Invoice For";
 $lang['label_number'] = "Number";
@@ -341,6 +347,7 @@ $lang['transaction_date'] = "Date";
 $lang['transaction_gateway'] = "Gateway";
 $lang['transaction_amount'] = "Amount";
 $lang['transaction_not_found'] = "Transaction Not Found";
+
 // =========================================== PLACEHOLDERS ===============================================
 $lang['placeholder_optional'] = "Optional";
 $lang['placeholder_select'] = "Select a value";
@@ -362,6 +369,7 @@ $lang['placeholder_tax_ID'] = "N° de TVA Intra";
 $lang['placeholder_tax'] = "Tax Name";
 $lang['placeholder_new_password'] = "New Password";
 $lang['placeholder_confirm_new_password'] = "Confirm New Password";
+
 // =========================================== OPTIONS  ===================================================
 $lang['option_draft'] = "Draft";
 $lang['option_unpaid'] = "Unpaid";
@@ -387,6 +395,7 @@ $lang['option_cash'] = "Cash";
 $lang['option_credit_card'] = "Credit Card";
 $lang['option_bank_transfer'] = "Bank Transfer";
 $lang['option_paypal'] = "PayPal";
+
 // =========================================== SECTION LABELS =============================================
 $lang['section_items_lines'] = "Items and Services";
 $lang['section_basic_informations'] = "Basic Information";
@@ -397,6 +406,7 @@ $lang['section_accounting'] = "Accounting";
 $lang['section_company'] = "Company";
 $lang['section_invoices_notifications'] = "Invoices Templates";
 $lang['section_quotes_notifications'] = "Quotes Templates";
+
 // =========================================== TABLES HEADER ==============================================
 $lang['th_sku'] = "SKU";
 $lang['th_item'] = "Item";
@@ -408,7 +418,9 @@ $lang['th_tax'] = "Tax";
 $lang['th_line_total'] = "Line Total";
 $lang['th_client'] = "Client Name or Company";
 $lang['th_status'] = "Status";
+
 // =========================================== ALERTS   ===================================================
+
 // =========================================== BUTTONS  ===================================================
 $lang['btn_save'] = "Save";
 $lang['btn_cancel'] = "Cancel";
@@ -424,10 +436,12 @@ $lang['btn_next'] = "Next";
 $lang['btn_previous'] = "Previous";
 $lang['btn_submit'] = "Submit";
 $lang['btn_view'] = "View";
+
 // =========================================== DATE     ===================================================
 $lang['date_created_on'] = "Created on";
 $lang['date_due_date'] = "Due Date";
 $lang['date_date_paid'] = "Paid on";
+
 // =========================================== PROMPT   ===================================================
 $lang['prompt_are_your_sure'] = "Are You Sure?";
 $lang['prompt_delete_warning_message'] = "You are about to delete some items. Please note that you won't be able to restore them.";
@@ -440,7 +454,7 @@ $lang['prompt_confirm_edit'] = "Yes, Edit Now";
 $lang['prompt_confirm_send'] = "Yes, Send Now";
 $lang['prompt_activation_warning_message'] = "You are about to activate some items. Do you want to continue?";
 $lang['prompt_desactivation_warning_message'] = "You are about to deactivate some items. Do you want to continue?";
-$lang['prompt_send_warning_message'] = "You are about to send some items. Do you want to continue ?";
+$lang['prompt_send_warning_message'] = "You are about to send some items. Do you want to continue?";
 $lang['prompt_mark_paid_warning_message'] = "You are about to mark some invoices paid. Do you want to continue?";
 $lang['prompt_mark_approved_warning_message'] = "You are about to mark some quotes approved. Do you want to continue?";
 $lang['prompt_edit_warning_message'] = "You are about to change a user status. Do you want to continue?";
@@ -453,9 +467,11 @@ $lang['clients_client'] = "Client";
 $lang['items_items'] = "Items";
 $lang['items_item'] = "Item";
 $lang['items_profit'] = "Profit";
+
 // =========================================== PROVIDERS ===================================================
 $lang['providers_provider'] = "Supplier";
 $lang['providers_providers'] = "Suppliers";
+
 // =========================================== INCOMES ===================================================
 $lang['incomes_incomes'] = "Income";
 $lang['incomes_income'] = "Income";
@@ -469,9 +485,11 @@ $lang['extraordinary_income'] = "Extraordinary Income";
 // =========================================== SERVICES ===================================================
 $lang['services_services'] = "Services";
 $lang['services_service'] = "Service";
+
 // =========================================== USERS    ===================================================
 $lang['users_users'] = "Users";
 $lang['users_user'] = "User";
+
 // =========================================== ERRORS ===================================================
 $lang['error_required_field_error'] = " You forgot a required field!";
 $lang['error_password_too_short'] = " The password is too short!";
@@ -499,8 +517,11 @@ $lang['subject_payment_confirmation'] = "Payment Confirmation";
 $lang['subject_invoice_generated'] = "Your Invoice";
 $lang['subject_quote_approved'] = "Quote Approved";
 $lang['subject_quote_generated'] = "Your Quote";
+
 // =========================================== INVOICES ===================================================
+
 // =========================================== INVOICES ===================================================
+
 // =========================================== COUNTRIES ===================================================
 $lang['None']	= 'None';
 $lang['Afghanistan'] = 'Afghanistan';
@@ -709,6 +730,7 @@ $lang['San Marino'] = 'San Marino';
 $lang['Saudi Arabia'] = 'Saudi Arabia';
 $lang['Senegal'] = 'Senegal';
 $lang['Serbia'] = 'Serbia';
+
 //$lang['Serbia and Montenegro'] = 'Serbia and Montenegro';
 $lang['Seychelles'] = 'Seychelles';
 $lang['Sierra Leone'] = 'Sierra Leone';
@@ -1101,7 +1123,7 @@ $lang['label_to'] = "To";
 $lang['message_end_recurring'] = "You can define a start and end date. If it never stops, choose any date in the future. A green label indicates recurring invoices. You can stop a anytime next entry.";
 $lang['tooltip_recurring_item'] = "Green indicates recurring items.";
 $lang['date_shipping_date'] = "Shipping";
-$lang['message_check_to_notify_provider'] = "Check to notify the Provider immediately.";
+$lang['message_check_to_notify_provider'] = "Check to notify the Supplier immediately.";
 
 // 1.7
 $lang['subject_purchase_order'] = "New Purchase Order";
@@ -1117,6 +1139,7 @@ $lang['label_shipping_amount'] = "Shipping Amount";
 $lang['label_received'] = "Received";
 $lang['label_shipment_status'] = "Shipment";
 $lang['message_stock_updated'] = "The Purchase Order is marked received. The on Hand Stock has been updated for each item. You can check these values in Stock Tab.";
+
 // 1.7.2
 $lang['message_enter_purchase_code'] = "Register your purchase code to continue. Without a valid license, the app will break at any time.";
 $lang['message_enable_sale_order'] = "In some countries, Invoices are issued for Professional and Sales Order for Individuals. Check this box if you need Sales Orders.";
@@ -1244,6 +1267,7 @@ $lang['message_prompt_clear_task'] = "Are you sure you want to reset this task?"
 $lang['message_track_project_time'] = "Bill Exactly Time Spent on a Project";
 $lang['label_start_go'] = "Stop and Go";
 $lang['message_start_go'] = "Check the box to start or stop a timer. Do not worry about saving. The system runs in the background. Closing the window or switching off current device will not interrupt timers started if cookies are not emptied.";
+
 // Report
 $lang['label_income_per_product'] = "Income Per Product";
 $lang['message_income_per_product'] = "Income Per Product";
@@ -1261,6 +1285,7 @@ $lang['message_income_forecast'] = "Income Forecast";
 $lang['label_year'] = "Year";
 $lang['label_quantity_sold'] = "Quantity Sold";
 $lang['message_income_forecast_help'] = "This feature shows a visual representation of your finances based on recorded invoices. This means that all paid, unpaid and overdue invoices are taken into account, not recurring invoices which are not yet generated. Timestamp are provided by invoices due date. By default, the Turnover Tax Included graph is unchecked.";
+
 // 1.93
 $lang['label_support'] = "Support";
 $lang['link_support_sheets'] = "Support Sheets";
@@ -1293,7 +1318,7 @@ $lang['permission_reset_passwords'] = "Reset Any Password";
 $lang['permission_manage_user_access'] = "Access and Manage User Roles and Permissions";
 $lang['permission_run_time_tracking'] = "Run Time Tracking";
 $lang['permission_customers'] = "Customers";
-$lang['permission_providers'] = "Providers";
+$lang['permission_providers'] = "Suppliers";
 $lang['permission_invoice_quotes'] = "Invoices & Quotes";
 $lang['permission_create_credit_note'] = "Create Credit Note";
 $lang['permission_purchase_order'] = "Purchase Order";
@@ -1332,8 +1357,8 @@ $lang['message_generate_commissions_failed'] = "Oops. There were no commissions 
 $lang['message_commissions_paid'] = "Great! All commissions have been paid successfully. Your Team should be happy. The page will reload...";
 $lang['message_pay_commissions_failed'] = "Oops. All commissions were already paid ...";
 $lang['title_multicurrency'] = "Multi currency";
-$lang['change_rate_not_supported'] = "Your currency is not supported by our exchanger service. Option to change currency will be disable in settings and client's dashboard.";
-$lang['permission_manage_commissions'] = "Manage Users/Agents' commissions";
+$lang['change_rate_not_supported'] = "Your currency is not supported by our exchanger service. Option to change currency will be disable in settings and clients dashboard.";
+$lang['permission_manage_commissions'] = "Manage Users/Agents commissions";
 $lang['label_my_desk'] = "My Desk";
 $lang['label_orders'] = "Orders";
 $lang['message_override_user_commission'] = "This section overrides general rewards settings. You can define a fixed amount per order or set a commission rate that applies to this user.";
@@ -1434,7 +1459,7 @@ $lang['message_updated_privacy_4'] = "Please, review and update your personal da
 $lang['message_got_it'] = "Got it";
 $lang['message_order_delete_failed'] = "Some orders cannot be deleted due to their statuses. Count of orders not deleted:";
 $lang['message_selection_deleted_successfuly'] = "The selection has been removed successfully.";
-$lang['message_prompt_generate_invoice_from_order'] = "You are about to generate invoices from selected orders. Are you sure you want to continue ?";
+$lang['message_prompt_generate_invoice_from_order'] = "You are about to generate invoices from selected orders. Are you sure you want to continue?";
 $lang['label_theme'] = "Theme";
 $lang['label_theme_default'] = "Default Theme";
 $lang['label_theme_custom'] = "Custom Theme";
@@ -1444,7 +1469,7 @@ $lang['has_been_paid_on'] = " has been paid on ";
 $lang['label_by'] = " by ";
 $lang['label_reference'] = " Reference: ";
 $lang['link_update_system'] = "Update System";
-$lang['label_is_up_to_date'] = "Is Up To Date ?";
+$lang['label_is_up_to_date'] = "Is Up To Date?";
 $lang['label_changelog'] = "Change Log";
 $lang['message_you_are_running'] = "You are running v.%s";
 $lang['message_reading_current_releases_list'] = "Reading Current Releases List";
@@ -1476,10 +1501,10 @@ $lang['message_advanced_settings'] = "Manage Advanced Settings";
 $lang['label_crom_jobs'] = "Cron Jobs";
 $lang['label_system_cron'] = "System Cron";
 $lang['label_database_backup'] = "Database Backup";
-$lang['message_database_backup_cron'] = "Depending on how many invoices you generate a day; you can set a daily backup or every hour. It is up to you ! Don't forget to set a notification email and CC email to receive the backups.";
+$lang['message_database_backup_cron'] = "Depending on how many invoices you generate a day; you can set a daily backup or every hour. It is up to you! Don't forget to set a notification email and CC email to receive the backups.";
 $lang['subject_database_backup'] = "m'Manager Database Backup";
 $lang['message_database_backup_notification'] = "Your m'Manager installation database has been successfully backed up as you can see in attachment. You can edit the backup frequency at any time in your cron tab.";
-$lang['backup_email_message_signature'] = "Sincerly";
+$lang['backup_email_message_signature'] = "Sincerely";
 $lang['cron_done_successfuly'] = "Done successfully!";
 $lang['btn_test_command'] = "Test command";
 $lang['label_order_settings'] = "Sale Settings";
@@ -1516,7 +1541,7 @@ $lang['message_custom_order_layout'] = "To set a custom layout, open themes/defa
 $lang['label_connection_subject'] = "New Connection";
 $lang['label_connection_to_app'] = "Connection To m'Manager";
 $lang['label_greetings_with_name'] = "Hello %s,";
-$lang['message_connection_to_app_1'] = "We just noticed that your m'Manager account was accessed from an IP address we never saw : ";
+$lang['message_connection_to_app_1'] = "We just noticed that your m'Manager account was accessed from an IP address we have never seen before: ";
 $lang['message_connection_to_app_2'] = "If this was you, you can ignore this alert or add this IP Address to authorised connection Ips. You must log in before clicking on the following button";
 $lang['message_connection_to_app_3'] = "But if you did not initiate that connection, please act immediately: change your password to prevent any potential take-over of your account. Your security is very important to us.";
 $lang['label_ip_address'] = "IP Address";
@@ -1568,8 +1593,8 @@ $lang['link_additional_tax'] = "Add Tax";
 $lang['additional_taxes_help'] = "These additional Taxes apply to invoice total. To avoid computation errors, you MUST set them one by one in the order they occur: before or after default VAT and other taxes. To record additional taxes, follow this link ";
 $lang['btn_add'] = "Add";
 $lang['label_tax_base'] = "Tax base";
-$lang['message_annual_numbering'] = "This option helps organise your data on year basis. 2 digits for current year and the document number. Autoincrement is set back to 1 on january 1st. If selected, current invoices will be renumbered.";
-$lang['annual_numbering_message_cron'] = "If you use the annual sequencing option to attach invoices, quotes and purchases orders to current year, set this cron job to run once every year at january 1st.";
+$lang['message_annual_numbering'] = "This option helps organise your data on year basis. 2 digits for current year and the document number. Autoincrement is set back to 1 on January 1st. If selected, current invoices will be renumbered.";
+$lang['annual_numbering_message_cron'] = "If you use the annual sequencing option to attach invoices, quotes and purchases orders to current year, set this cron job to run once every year at January 1st.";
 $lang['label_mpn'] = "MPN";
 $lang['tooltip_mpn'] = "Manufacture Part Number";
 $lang['label_display_mpn'] = "Display MPN";
@@ -1695,11 +1720,11 @@ $lang['label_repair_notify_on_status_change'] = "Notify on Status Change";
 $lang['tooltip_repair_notify_on_status_change'] = "Send Email to Customer and Linked Admin on Statuses Changes";
 $lang['label_ticket_worksheets'] = "Ticket Worksheets";
 $lang['label_customer_qa_diagnosis'] = "Customer QA Diagnosis";
-$lang['label_operator_pre_diagnosis'] = "Operator Pre Diagnosis";
+$lang['label_operator_pre_diagnosis'] = "Operator Pre-Diagnosis";
 $lang['label_operator_post_diagnosis'] = "Operator Post Diagnosis";
 $lang['label_ticket_title'] = "Ticket Title";
 $lang['message_short_description'] = "Short description";
-$lang['placeholder_ticket_title'] = "e.g. iPhone with bad home button";
+$lang['placeholder_ticket_title'] = "eg. iPhone with bad home button";
 $lang['label_additional_email_to_notify'] = "Additional Emails to notify for comments";
 $lang['label_is_work_approved_to_proceed'] = "Is work approved to proceed?";
 $lang['label_is_work_prediagnosed'] = "Is work pre-diagnosed?";
@@ -1741,7 +1766,7 @@ $lang['section_proforma_notifications'] = "Proforma Notifications";
 $lang['label_new_proforma'] = "New Proforma";
 $lang['link_premium_plugins'] = "Premium Plugins";
 $lang['link_forums'] = "Forums";
-$lang['message_merge_failed'] = "Oops, some selected items cannot be merged. Maybe because you just selected one item or they are invoiced to guest or they don't belong to the same client. Item(s) not merged: ";
+$lang['message_merge_failed'] = "Oops, some selected items cannot be merged. Maybe because you just selected one item, or they are invoiced to guest or they don't belong to the same client. Item(s) not merged: ";
 $lang['message_merge_successed'] = "Great, selected items have been merged successfully.";
 $lang['link_merge_selection'] = "Merge Selection";
 $lang['prompt_merge_warning_message'] = "You are about to merge selected items. This action will add a new entry in repository with all those items.";
@@ -1749,7 +1774,7 @@ $lang['link_convert_to_invoice'] = "Convert to invoice";
 $lang['prompt_generate_invoice_warning_message'] = "You are about to convert Proforma to Invoice. Option is given to merge many proforma first. If not, separated invoices will be generated with selected items.";
 $lang['message_generate_invoice_successed'] = "Great! Selection is moved to invoices tab and customers with valid email addresses are notified.";
 $lang['proforma_merged_from'] = "This is a merged version of following pro formas:";
-$lang['message_proforma_note'] = "In trade transactions, a pro forma invoice is a document that states a commitment from the seller to sell goods to the buyer at specified prices and terms. It is used to declare the value of the trade. It is not a true invoice because it is not used to record accounts receivable for the seller and accounts payable for the buyer. Simply, a pro forma invoice is a confirmed purchase order where buyer and supplier agree on detail and cost of the product to be shipped to the buyer. A pro forma invoice is generally raised when the seller is ready for dispatching the material but they want to ensure that the payment is being sent before dispatch. And similarly, the customer also wants to know which components are included in the pro forma invoice to avoid disagreements later.";
+$lang['message_proforma_note'] = "In trade transactions, a pro forma invoice is a document that states a commitment from the seller to sell goods to the buyer at specified prices and terms. It is used to declare the value of the trade. It is not a true invoice because it is not used to record accounts receivable for the seller and accounts payable for the buyer. Simply, a pro forma invoice is a confirmed purchase order where buyer and supplier agree on detail and cost of the product to be shipped to the buyer. A pro forma invoice is generally raised when the seller is ready for dispatching the material, but they want to ensure that the payment is being sent before dispatch. And similarly, the customer also wants to know which components are included in the pro forma invoice to avoid disagreements later.";
 $lang['label_delete_once_invoiced'] = "Delete once invoiced";
 $lang['label_delete_once_merged'] = "Delete once merged";
 $lang['header_404'] = "Houston, we have a problem.";
@@ -1758,7 +1783,7 @@ $lang['link_404'] = "Return home";
 $lang['label_cc'] = "CC emails";
 $lang['tooltip_cc_emails'] = "Comma separeted CC emails to notify";
 $lang['label_attach_pdf_to_email'] = "Attach PDF to invoices";
-$lang['label_about_html_tags'] = "About HTML Tags?";
+$lang['label_about_html_tags'] = "About Html Tags?";
 $lang['tooltip_merged_proforma_html_entities'] = "Do not remove html entities on merged proformas. They are used to format PDF view.";
 $lang['customer_login_heading'] = "Customer Portal";
 $lang['message_password_request'] = "You recently requested to reset your password for your account with us, %s";
@@ -1768,3 +1793,168 @@ $lang['tooltip_item_serial_numbers'] = "You may need to record different serial 
 $lang['label_learn_how_to_use'] = "Learn how to use";
 $lang['th_serial_number'] = "Serial Number";
 $lang['message_proforma_transaction'] = "Be aware that 'Paid' status or payments added here will be recorded in your transactions table ONLY once you generate the final invoice.";
+$lang['message_proforma_transaction'] = "Be aware that 'Paid' status or payments added here will be recorded in your transactions table ONLY once you generate the final invoice.";
+$lang['message_apply_change_in_custom_theme'] = "Custom theme selected. You have to apply changes by yourself on updates. Switch to default theme to see changes.";
+$lang['message_your_repairs'] = "Your Repairs (Click to view details) ";
+$lang['placeholder_type_repair_reference'] = "Type repair reference...";
+$lang['label_search'] = "Search";
+$lang['message_repair_not_found'] = "Sorry, we have no record for this repair reference. Check your input.";
+$lang['label_references'] = "References";
+$lang['label_communication'] = "Communication";
+$lang['label_last_activity'] = "Last activity";
+$lang['label_days'] = "days";
+$lang['label_day'] = "day";
+$lang['label_hours'] = "hours";
+$lang['label_hour'] = "hour";
+$lang['label_minutes'] = "minutes";
+$lang['label_minute'] = "minute";
+$lang['label_seconds'] = "seconds";
+$lang['label_second'] = "second";
+$lang['link_maps_recaptcha'] = "Maps & reCAPTCHA";
+$lang['message_maps_recaptcha'] = "Maps & reCAPTCHA Settings";
+$lang['label_maps_settings'] = "Google Maps Settings";
+$lang['error_required_maps_api_key'] = "Google Maps API Key required";
+$lang['message_request_maps_api_key'] = "To use Google Maps, follow this simple tutorial %s";
+$lang['label_recaptcha_settings'] = "Google reCAPTCHA Settings";
+$lang['link_recaptcha_v2'] = "Google reCAPTCHA v2";
+$lang['label_site_key'] = "Site Key";
+$lang['label_site_secret'] = "Site Secret";
+$lang['error_required_maps_recaptcha_site_key'] = "Google reCAPTCHA site key required";
+$lang['error_required_maps_recaptcha_site_secret'] = "Google reCAPTCHA site secret required";
+$lang['label_enable_recaptcha'] = "Enable Google reCAPTCHA";
+$lang['message_enable_recaptcha'] = "Secure Login Pages with Google reCAPTCHA. To use reCAPTCHA, you need to sign up for an API key pair for your site. Request credentials from Google %s";
+$lang['Repair Center'] = "Repair Center";
+$lang['message_notifications_center'] = "Notify Your Customers";
+$lang['label_notifications'] = "Notifications Hub";
+$lang['link_canned_messages'] = "Add Canned Messages";
+$lang['label_available_messages'] = "Available Canned Messages";
+$lang['message_notification_note'] = "Occasionally, customers need to be informed about service schedules, server outages or vacation dates in real time. Simply display a short message on the customer portal or alert them by email.";
+$lang['label_displayed'] = "Displayed";
+$lang['label_taxes'] = "Taxes";
+$lang['label_default_items_tax'] = "Default Items Tax";
+$lang['label_default_services_tax'] = "Default Services Tax";
+$lang['label_vat_included'] = "Prices include vat";
+$lang['tooltip_vat_included'] = "If set to true, price excluding tax will be computed automatically.";
+$lang['label_vat_exclusive'] = "Price VAT Exclusive";
+$lang['label_vat_inclusive'] = "Price VAT Inclusive";
+$lang['label_the_right_way'] = "Use it the Right Way";
+$lang['message_item_service_the_right_way'] = "You can define in settings a default tax rate that applies to items and services. Option is given here to set the purchase price and define a profit rate. The system will then compute the selling price for you. You can choose to set a price VAT inclusive. For a better precision in computations, don't edit the generated VAT exclusive price. It is recommended to keep 4 digits at least so that rounding won't be greater than 0.001.";
+$lang['message_rounding_note'] = "Rounding can be an issue when dealing with large numbers and additionnal taxes that apply before or after VAT. Sometimes you just want to sell at $9.99 VAT inclusive. That's why all digits are now kept client side before final rounding server side. Don't worry about additionnal zeros or digits in forms. You'll have more accurate results than Neil Armstrong landing on the moon.";
+
+// 2.2.3
+$lang['label_manage_notifications'] = "Manage email notifications";
+$lang['message_turn_off_emails'] = "Turn off ALL notifications";
+$lang['message_turn_off_customer_invoice_emails'] = "Don't send invoice notification and PDFs to cutomers";
+$lang['message_turn_off_customer_quote_emails'] = "Don't send quote notification and PDFs to cutomers";
+$lang['message_turn_off_customer_proforma_emails'] = "Don't send proforma notification and PDFs to cutomers";
+$lang['message_turn_off_customer_cn_emails'] = "Don't send credit note notification and PDFs to cutomers";
+$lang['message_turn_off_customer_password_email'] = "Don't send password notification to new customer";
+$lang['message_turn_off_items_low_stock_email'] = "Turn off items low stock warning email";
+$lang['message_turn_off_provider_password_email'] = "Don't send password notification to new provider";
+$lang['message_turn_off_customer_so_emails'] = "Don't send sale order notification and PDFs to cutomers";
+$lang['message_turn_off_customer_po_emails'] = "Don't send purchase order notification and PDFs to providers";
+$lang['message_exclude_late_fees'] = "Check this box if late fees should not be applied to this client.";
+$lang['label_invoices_late_fees_settings'] = "Invoices Late Fees Settings";
+$lang['label_overdue_payment'] = "Overdue Payment";
+$lang['label_fixed_amount_or_percentage'] = "Fixed amount or percentage ?";
+$lang['message_fixed_amount_or_percentage'] = "Why does no one forget to pay their taxes? Maybe because we all know the consequences of delay. So help your customers remember to pay their bills by setting a small late fee, either as a fixed amount or a percentage of the bill.";
+$lang['message_enable_late_fees'] = "Apply late fees to overdue invoices";
+$lang['message_late_fees_basis'] = "Late fees are computed on this basis";
+$lang['message_late_fees_tax_rate'] = "If VAT applies, define Late fees Tax rate";
+$lang['label_late_fees'] = "Late fees";
+$lang['label_percentage_of_invoice_amount'] = "% Invoice amount";
+$lang['label_add_attachments'] = "Add attachments";
+$lang['label_sent_files'] = "Files You've already sent";
+$lang['message_late_fees_when'] = "When invoice is overdue, apply fees ";
+$lang['label_immediately'] = "Immediately";
+$lang['label_after_reminder'] = "After first reminder";
+$lang['late_fees_description'] = "Please don't remove this item, it is used by the system to keep track of all late fees and avoid duplicated records. You can edit name and sku";
+$lang['late_fees_item_message'] = "To keep track of late fees and avoid duplicated records when settings changes, the system recorded an item with ID -1. Don't remove it.";
+
+// 2.2.4
+$lang['label_server_side_pagination'] = "Server Side Processing";
+$lang['message_enable_server_side_pagination'] = "When dealing with large dataset, tables may be slow. Enable this option to process server side. You'll then load data on demand and speed up rendering for +100K rows. You can define tables default size in settings. Please note that this feature is still in Beta. Sorting, ordering and searching may not work as expected.";
+$lang['label_beta'] = "Beta";
+$lang['label_tables_default_size'] = "Tables default size";
+$lang['tooltip_tables_default_size'] = "When using server side pagination, set data table default size. Low value gives better performance. Recommended: 30 rows/page";
+$lang['message_how_to_use_stocks'] = "Stocks helps you keep an eye on your business. You can see items performances and valuation. If you have large dataset, loading this page may be longer than usual because all orders are collected to give you a better insights.";
+$lang['btn_save_download'] = "Save & Download";
+$lang['message_reinstall_last_version'] = "Your system is up to date. If you need to reinstall last stable version, click the button below to proceed.";
+$lang['message_reinstall_now'] = "Yes, Reinstall Now !";
+
+// 3.0
+$lang['label_toogle_timeline'] = "Toggle Timeline";
+$lang['link_add_with_vat_id'] = "Add with VAT ID";
+$lang['help_fullname_company'] = "Full name or Company name";
+$lang['help_vat_number_without_country_code'] = "Enter VAT number without country code";
+$lang['help_email'] = "Enter a valid email address";
+$lang['label_note_title'] = "Note title";
+$lang['label_note_content'] = "Note content...";
+$lang['message_client_added_successfuly'] = "Great ! New customer added successfully !";
+$lang['label_bill_now'] = "Bill now";
+$lang['update_title'] = "Update";
+$lang['update_message'] = "Update to";
+$lang['update_conf_button'] = "Yes, run update";
+$lang['update_cancel_button'] = "No, cancel";
+$lang['updated_successfuly'] = "Update ran successfully!";
+$lang['label_warning'] = "Warning";
+$lang['message_running_timers'] = "You have running timers. Login out or closing the browser WILL NOT STOP THEM on this computer. Do you want to continue ?";
+$lang['message_generate_invoice_failed'] = "We could not generate invoices. Please try again.";
+$lang['email_not_valid'] = "The email address is not valid.";
+$lang['label_purchased'] = "Purchased";
+$lang['help_stock_initial_stock'] = "You can define or adjust the starting stock level.";
+$lang['help_stock_purchased'] = "When using the purchase order feature, quantity purchased from supplier are shown here when purchase order is mark paid and received.";
+$lang['help_stock_commited'] = "When a quote is not yet approved or invoices not paid yet paid, their items are recorded as commited.";
+$lang['help_stock_shipped'] = "When invoice is paid, items are considered shipped.";
+$lang['help_stock_available'] = "Purchased";
+$lang['help_stock_purchase_price'] = "To get the stock valuation, you can set item purchase price.";
+$lang['help_stock_reorder_point'] = "Get notified when item stock level reaches the reorder point value.";
+$lang['help_stock_valuation'] = "Get a basic stock valuation based on item quantity and its purchase price.";
+$lang['no_subject'] = "m'Manager";
+$lang['label_paid_with_mollie'] = "Pay with Mollie";
+$lang['label_repair_appointments'] = "Repair Appointments";
+$lang['label_click_to_show'] = "Click to show";
+$lang['label_close'] = "Close";
+$lang['label_repair_details'] = "Repair details";
+$lang['label_diagnosed'] = "Diagnosed";
+$lang['label_work_approved'] = "Work approved";
+$lang['label_work_completed'] = "Work completed";
+$lang['message_will_turn_green'] = "Label will turn green once completed, grey but default";
+$lang['label_ticket_info'] = "Ticket Infos";
+$lang['label_pre_approved'] = "Pre-Approved";
+$lang['label_phone_repair_template'] = "Phone Repair Template";
+$lang['label_relevant_asset'] = "Relevant Asset";
+$lang['message_to_fill_title'] = "To fill the Issue Title";
+$lang['message_to_fill_reference'] = "To fill the Issue Reference";
+$lang['message_to_fill_name_company'] = "To fill Customer Name Company";
+$lang['message_to_fill_issue_type'] = "To fill the Issue Type";
+$lang['label_component'] = "Component";
+$lang['message_available_tags_example'] = "Hello {name_company}. Your repair {ticket_title} is ready.";
+$lang['label_example'] = "Example: ";
+$lang['Repair Center'] = "Repair Center";
+$lang['Repair Settings'] = "Repair Settings";
+$lang['label_dismiss'] = "Dismiss";
+$lang['label_manage_menu'] = "Customize Menu";
+$lang['message_hide_menu_links'] = "Option is given to hide modules you won't use. Reactive them at anytime when needed.";
+$lang['message_hide_item_from_menu'] = "Hide %s menu link";
+$lang['message_cc_all_emails'] = "Send a copy of all outgoing emails to notification email (%s)";
+$lang['label_damaged_lost'] = "Damaged/Lost";
+$lang['message_features_disabled'] = "This is a public demo. Some options are disabled.";
+
+// 3.2
+$lang['label_redirect_to_list'] = "When %s is created, redirect to list";
+
+// 3.4
+$lang['link_send_selection_to_accountant'] = "Email selection to accountant";
+$lang['label_accountant_details'] = "Accountant Details";
+$lang['label_accountant_name_company'] = "Accountant Name or Company";
+$lang['label_accountant_email'] = "Accountant Email";
+$lang['label_accountant_notification'] = "Accountant Notification";
+$lang['label_invoices_collection'] = "Invoices Collection";
+
+// 3.5
+$lang['merge_invoices_in_one_file'] = "Merge Pdfs in a single file";
+$lang['prompt_download_warning_message'] = "You are about to download selected items. Do you want to continue?";
+$lang['prompt_confirm_download'] = "You are about to download selected items. Do you want to continue?";
+$lang['message_download_failed'] = "Download failed, please try again.";
+$lang['link_download_selection'] = "Download selection";
